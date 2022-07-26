@@ -1,7 +1,7 @@
 import './App.css';
 import './css/main.css'
 import { Agregar } from './components/Agregar';
-import { React, useState, useEffect, useContext } from 'react';
+import { React } from 'react';
 import { Tabla } from './components/Tabla';
 import { ContactProvider } from './components/contactContext';
 

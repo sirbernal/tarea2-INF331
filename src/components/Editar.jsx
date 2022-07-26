@@ -1,4 +1,4 @@
-import { React, useState, useContext, useEffect } from 'react';
+import { React, useState, useContext } from 'react';
 
 import { Button, Modal, Form } from 'react-bootstrap';
 import { contactContext } from './contactContext';
@@ -14,7 +14,6 @@ export const Editar = ({ id }) => {
         setOpenEdit(false);
 
     };
-    const handleShow = () => setShow(true);
 
     const contacto = contactos[id];
 

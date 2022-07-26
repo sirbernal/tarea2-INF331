@@ -13,7 +13,7 @@ export function ContactProvider({ children }) {
 
     const borrado = (index) => {
         const new_contactos = contactos.filter(
-            item => item != contactos[index]
+            item => item !== contactos[index]
         );
         setContactos(new_contactos);
     }
